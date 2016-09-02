@@ -10,4 +10,9 @@
 
 @implementation VitaPackageHelper
 
+- (void) loadPackage:(NSString*)path{
+    NSFileManager *fm = [[NSFileManager alloc]init];
+    
+}
+
 @end
