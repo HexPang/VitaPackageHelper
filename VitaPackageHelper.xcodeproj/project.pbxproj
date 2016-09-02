@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C74047DE1D79892100091F00 /* VitaPackageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C74047DD1D79892100091F00 /* VitaPackageHelper.h */; };
+		C74047E01D79892100091F00 /* VitaPackageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C74047DF1D79892100091F00 /* VitaPackageHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C74047DA1D79892100091F00 /* libVitaPackageHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVitaPackageHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74047DD1D79892100091F00 /* VitaPackageHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VitaPackageHelper.h; sourceTree = "<group>"; };
+		C74047DF1D79892100091F00 /* VitaPackageHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VitaPackageHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C74047D71D79892100091F00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C74047D11D79892100091F00 = {
+			isa = PBXGroup;
+			children = (
+				C74047DC1D79892100091F00 /* VitaPackageHelper */,
+				C74047DB1D79892100091F00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C74047DB1D79892100091F00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C74047DA1D79892100091F00 /* libVitaPackageHelper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C74047DC1D79892100091F00 /* VitaPackageHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C74047DD1D79892100091F00 /* VitaPackageHelper.h */,
+				C74047DF1D79892100091F00 /* VitaPackageHelper.m */,
+			);
+			path = VitaPackageHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C74047D81D79892100091F00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74047DE1D79892100091F00 /* VitaPackageHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C74047D91D79892100091F00 /* VitaPackageHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C74047E31D79892100091F00 /* Build configuration list for PBXNativeTarget "VitaPackageHelper" */;
+			buildPhases = (
+				C74047D61D79892100091F00 /* Sources */,
+				C74047D71D79892100091F00 /* Frameworks */,
+				C74047D81D79892100091F00 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VitaPackageHelper;
+			productName = VitaPackageHelper;
+			productReference = C74047DA1D79892100091F00 /* libVitaPackageHelper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C74047D21D79892100091F00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HexPang;
+				TargetAttributes = {
+					C74047D91D79892100091F00 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C74047D51D79892100091F00 /* Build configuration list for PBXProject "VitaPackageHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C74047D11D79892100091F00;
+			productRefGroup = C74047DB1D79892100091F00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C74047D91D79892100091F00 /* VitaPackageHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C74047D61D79892100091F00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74047E01D79892100091F00 /* VitaPackageHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C74047E11D79892100091F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C74047E21D79892100091F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C74047E41D79892100091F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C74047E51D79892100091F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C74047D51D79892100091F00 /* Build configuration list for PBXProject "VitaPackageHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74047E11D79892100091F00 /* Debug */,
+				C74047E21D79892100091F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C74047E31D79892100091F00 /* Build configuration list for PBXNativeTarget "VitaPackageHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74047E41D79892100091F00 /* Debug */,
+				C74047E51D79892100091F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C74047D21D79892100091F00 /* Project object */;
+}
