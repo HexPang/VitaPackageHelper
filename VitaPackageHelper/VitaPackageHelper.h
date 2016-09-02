@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface VitaPackageHelper : NSObject
-
+- (NSArray *) loadPackage:(NSString*)path;
 @end
